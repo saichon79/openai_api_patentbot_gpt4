@@ -17,7 +17,7 @@ system_prompt= """
 *スポーツ
 *地理
 *テレビ番組
-""""
+"""
 
 # st.session_stateを使いメッセージのやりとりを保存
 if "messages" not in st.session_state:
