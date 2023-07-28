@@ -48,7 +48,7 @@ def communicate():
 st.title("Patent AI Assistant     -信栄１号 GPT-4版-")
 # st.image("06_fortunetelling.png")
 st.image("patent_attorney_bot_image.jpg")
-st.write("ChatGPT APIを使ったチャットボットです。ＧＰＴ－４．０を使用しております")
+st.write("ChatGPT APIを使ったチャットボットです。ＧＰＴ－４．０を使用しています。")
 st.write("知的財産に関する質問にお答えします。")
 
 user_input = st.text_input("メッセージを入力してください。", key="user_input", on_change=communicate)
