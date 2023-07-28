@@ -34,7 +34,7 @@ def communicate():
 
     response = openai.ChatCompletion.create(
 #        model="gpt-3.5-turbo",
-        model="GPT-4",
+        model="gpt-4",
         messages=messages
     )  
 
